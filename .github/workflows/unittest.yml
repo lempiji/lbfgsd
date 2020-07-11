@@ -38,10 +38,10 @@ jobs:
     # Runs all examples
     - name: Run a example/simple
       run: |
-        cd $GITHUB_WORKSPACE/example/simple
+        cd $GITHUB_WORKSPACE/../example/simple
         dub run
     - name: Run a example/likehood
       run: |
-        cd $GITHUB_WORKSPACE/example/likehood
+        cd $GITHUB_WORKSPACE/../example/likehood
         dub run
 
