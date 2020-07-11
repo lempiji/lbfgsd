@@ -1,4 +1,4 @@
-# numeric
+# lbfgsd
 Automatic differentiation and L-BFGS implementation in the D Programming Language.
 
 ```D
