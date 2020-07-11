@@ -1,0 +1,6 @@
+name "likehood"
+description "A minimal D application."
+authors "lempiji"
+license "MIT"
+dependency "lantern" version="~>1.0.0"
+dependency "lbfgsd" path="../../"

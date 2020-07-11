@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/gsd
+gsd.so
+gsd.dylib
+gsd.dll
+gsd.a
+gsd.lib
+gsd-test-*
+*.exe
+*.o
+*.obj
+*.lst

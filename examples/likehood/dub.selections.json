@@ -1,0 +1,10 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"east_asian_width": "1.0.0",
+		"gsd": {"path":"../../"},
+		"lantern": "1.0.0",
+		"mir-algorithm": "3.7.33",
+		"mir-core": "1.1.7"
+	}
+}

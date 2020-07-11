@@ -1,0 +1,4 @@
+name "lbfgsd"
+description "A L-BFGS Solver"
+authors "lempiji"
+license "MIT"
