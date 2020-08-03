@@ -639,3 +639,23 @@ auto correl(T, U)(const scope T[] xs, const scope U[] ys, const scope T xa, cons
     }
     return cv / (sqrt(xv) * sqrt(yv));
 }
+
+T sigmoid(T)(const scope T x)
+{
+    return T(1) / (1 + exp(-x));
+}
+
+T swish(T)(const scope T x)
+{
+	return x * sigmoid(x);
+}
+
+T softplus(T)(const scope T x)
+{
+	return log(1 + exp(x));
+}
+
+T mish(T)(const scope T x)
+{
+	return x * tanh(softplus(x));
+}
